@@ -9,6 +9,6 @@ class VendorController extends Controller
 {
     public function dashbord()
     {
-        return view('vendor.dashboard');
+        return view('vendor/dashboard');
     }
 }
