@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class VendorController extends Controller
 {
-    public function dashbord()
+    public function dashboard()
     {
         return view('vendor/dashboard');
     }
