@@ -16,7 +16,6 @@ class Vendor
      */
     public function handle(Request $request, Closure $next): Response
     {
-
         if(Auth::user()->role != 'vendor'){
            return redirect('/');
         }

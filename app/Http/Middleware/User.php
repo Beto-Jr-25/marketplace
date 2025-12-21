@@ -16,7 +16,6 @@ class User
      */
     public function handle(Request $request, Closure $next): Response
     {
-
         if(Auth::user()->role != 'user'){
            return redirect('/');
         }
